@@ -23,4 +23,10 @@ public class Constants {
             .concat(",")
             .concat(Integer.toString(MAX_COMMENT_LENGTH))
             .concat("}\"}$");
+
+    /**
+     * Order Parser Configuration constants
+     */
+    public final static String CSV_JOB_PARAMETERS = "csvFiles";
+    public final static String JSON_JOB_PARAMETERS = "jsonFiles";
 }
