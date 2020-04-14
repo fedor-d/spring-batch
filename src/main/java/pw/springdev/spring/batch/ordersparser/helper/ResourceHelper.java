@@ -19,7 +19,6 @@ public class ResourceHelper {
 
         for (String file : files) {
             resourceSet.add(new FileSystemResource(file));
-            //"src/main/resources/".concat(file)));
         }
 
         Resource[] resources = new Resource[resourceSet.size()];
