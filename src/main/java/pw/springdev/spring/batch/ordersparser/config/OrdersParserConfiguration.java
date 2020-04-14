@@ -22,7 +22,9 @@ import pw.springdev.spring.batch.ordersparser.domain.OrderInfo;
 import pw.springdev.spring.batch.ordersparser.helper.ResourceHelper;
 import pw.springdev.spring.batch.ordersparser.mapper.CsvOrderInfoLineMapper;
 import pw.springdev.spring.batch.ordersparser.mapper.JsonOrderInfoLineMapper;
+import pw.springdev.spring.batch.ordersparser.service.OrderService;
 import pw.springdev.spring.batch.ordersparser.validator.OrdersParserJobParametersValidator;
+import pw.springdev.spring.batch.ordersparser.writer.ConsoleItemWriter;
 
 import static pw.springdev.spring.batch.ordersparser.constant.Constants.*;
 
