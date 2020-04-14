@@ -10,6 +10,7 @@ CSV line example - *1,100,USD,order payment*.The columns are *orderId, amount, c
 JSON line example - *{"orderId":1,"amount":100,"currency":"USD","comment":"order payment"}*  
 
 ## Output Data
+Parsing and converting the data to be performed in parallel in multiple threads.  
 Console output *{"id":1,"amount":100,"comment":"order payment","filename":"orders.csv","line":1,"result":"OK"}* .
 
 ## Instruction
