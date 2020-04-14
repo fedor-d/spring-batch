@@ -20,6 +20,7 @@ import org.springframework.core.io.Resource;
 import org.springframework.core.task.SimpleAsyncTaskExecutor;
 import pw.springdev.spring.batch.ordersparser.domain.OrderInfo;
 import pw.springdev.spring.batch.ordersparser.helper.ResourceHelper;
+import pw.springdev.spring.batch.ordersparser.validator.OrdersParserJobParametersValidator;
 
 import static pw.springdev.spring.batch.ordersparser.constant.Constants.*;
 
@@ -60,15 +61,15 @@ public class OrdersParserConfiguration {
 
         return this.jobBuilderFactory
                 .get(PARALLEL_STEPS_JOB)
-                .validator(orderParserJobParametersValidator())
+                .validator(ordersParserJobParametersValidator())
                 .start(csvFlow)
                 .end()
                 .build();
     }
 
     @Bean
-    public JobParametersValidator orderParserJobParametersValidator() {
-        return new OrderParserJobParametersValidator();
+    public JobParametersValidator ordersParserJobParametersValidator() {
+        return new OrdersParserJobParametersValidator();
     }
 
     @Bean
