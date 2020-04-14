@@ -1,0 +1,19 @@
+
+
+Hello World! I'm line without comma
+Hello, World! Don't enough commas!
+{"orderId":,"amount":,"currency":,"comment":}
+{"orderId":1.1,"amount":300,"currency":"USD","comment":"order payment"}
+{"orderId":-5,"amount":500,"currency":"USD","comment":"order payment"}
+{"orderId":abc,"amount":100.,"currency":"USD","comment":"order payment"}
+{:abc,"amount":100.,"currency":"USD","comment":"order payment"}
+{"orderId":2,"amount":,"currency":"USD","comment":"order payment"}
+{"orderId":3,"amount":abc,"currency":"USD","comment":"order payment"}
+{"orderId":1,"amount":300.,"currency":"USD","comment":"order payment"}
+{"orderId":2,"amount":400.555,"currency":,"comment":"order payment"}
+{"orderId":3,"amount":500,"curre:"USD","comment":"order payment"}
+{"orderId":1,"amount":100.,"currency":,"comment":"order payment"}
+{"orderId":2,"amount":300.3,"currency":"US","comment":"order payment"}
+{"orderId":3,"amount":500,"currency":"USD1","comment":"order payment"}
+{"orderId":1,"amount":100,"currency":"USD","comment":""}
+{"orderId":2,"amount":300,"currency":"USD","comment":}

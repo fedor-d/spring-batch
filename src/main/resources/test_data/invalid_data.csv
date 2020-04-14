@@ -1,0 +1,21 @@
+
+
+Hello World! I'm line without comma
+Hello, World! Don't enough commas!
+,100,USD,order payment
+1.1,200,USD,order payment
+-5,500,USD,order payment
+abc,1000,USD,order payment
+5,,USD,order payment
+1,abc,USD,order payment
+2,300.,USD,order payment
+3,400.555,USD,order payment
+4,1000,,order payment
+5,100,US,order payment
+1,100,USD1,order payment
+2,200,USD,
+2,200,USD,
+abc
+1,2
+5,100,USD
+5,100,USD,abc,abc
