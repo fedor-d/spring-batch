@@ -18,9 +18,11 @@ Console output *{"id":1,"amount":100,"comment":"order payment","filename":"order
 
 ## Instruction
 1) Clone the project
-2) Go to the project folder, and mvn clean install
+2) Go to the project folder, and run:
+*mvn clean install*
+cp src/main/resources/test_data/* target
 3) Run the app:
-*java -jar order-parser.jar orders.csv orders.json* 
+*java -jar orders-parser-0.0.1-SNAPSHOT.jar valid_data.csv valid_data.json invalid_data.csv invalid_data.json*
 in the target directory.
 
 ## Remarks
