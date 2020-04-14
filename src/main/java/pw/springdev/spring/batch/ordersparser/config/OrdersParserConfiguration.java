@@ -20,6 +20,8 @@ import org.springframework.core.io.Resource;
 import org.springframework.core.task.SimpleAsyncTaskExecutor;
 import pw.springdev.spring.batch.ordersparser.domain.OrderInfo;
 import pw.springdev.spring.batch.ordersparser.helper.ResourceHelper;
+import pw.springdev.spring.batch.ordersparser.mapper.CsvOrderInfoLineMapper;
+import pw.springdev.spring.batch.ordersparser.mapper.JsonOrderInfoLineMapper;
 import pw.springdev.spring.batch.ordersparser.validator.OrdersParserJobParametersValidator;
 
 import static pw.springdev.spring.batch.ordersparser.constant.Constants.*;
