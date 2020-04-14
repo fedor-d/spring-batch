@@ -29,4 +29,17 @@ public class Constants {
      */
     public final static String CSV_JOB_PARAMETERS = "csvFiles";
     public final static String JSON_JOB_PARAMETERS = "jsonFiles";
+
+    public final static String JSON_FLOW = "jsonFlow";
+    public final static String CSV_FLOW = "csvFlow";
+    public final static String PARALLEL_STEPS_JOB = "parallelStepsJob";
+    public final static String JSON_STEP = "jsonStep";
+    public final static String CSV_STEP = "csvStep";
+    public final static String TRANSFER_ORDER_INFO_TO_JSON_METHOD = "orderInfoToJson";
+
+    /**
+     * Other constants
+     */
+    public final static String EMPTY_STRING = "";
+    public final static String DELIMITER = ",";
 }
