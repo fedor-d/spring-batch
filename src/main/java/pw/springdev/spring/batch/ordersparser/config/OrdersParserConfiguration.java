@@ -103,7 +103,7 @@ public class OrdersParserConfiguration {
         ItemProcessorAdapter<OrderInfo, String> adapter = new ItemProcessorAdapter<>();
 
         adapter.setTargetObject(orderService);
-        adapter.setTargetMethod(TRANSFER_ORDER_INFO_TO_JSON_METHOD);
+        adapter.setTargetMethod("orderInfoToJson");
 
         return adapter;
     }
